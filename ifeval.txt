@@ -1,0 +1,12 @@
+Running llm-vicuna7b on alpaca using default images...
+🚨 `test_strategy` is part of LlavaModel.forward's signature, but not documented. Make sure to add it to the docstring of the function in /home/yangjingwen/miniconda3/envs/eval_new/lib/python3.10/site-packages/transformers/models/llava/modeling_llava.py.
+🚨 `test_strategy` is part of LlavaForConditionalGeneration.forward's signature, but not documented. Make sure to add it to the docstring of the function in /home/yangjingwen/miniconda3/envs/eval_new/lib/python3.10/site-packages/transformers/models/llava/modeling_llava.py.
+left
+Model llava-1.5-7b initialized.
+Task ifeval initialized.
+Ensuring NLTK resources are available...
+===================================================================
+Evaluation Result with llava-1.5-7b on ifeval
+{'nature_0': {'prompt_level_strict_accuracy': 0.3345656192236599, 'inst_level_strict_accuracy': 0.4556354916067146, 'prompt_level_loose_accuracy': 0.36044362292051757, 'inst_level_loose_accuracy': 0.48081534772182255}}
+Finished llm-vicuna7b on alpaca using default images.
+--------------------------

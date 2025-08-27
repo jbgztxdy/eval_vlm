@@ -1,0 +1,10 @@
+Running llm-vicuna7b on alpaca using default images...
+Model llm-vicuna7b initialized.
+Task ifeval initialized.
+save_hs shape: (541, 33, 4096)
+Ensuring NLTK resources are available...
+===================================================================
+Evaluation Result with llm-vicuna7b on ifeval
+{'text': {'prompt_level_strict_accuracy': 0.24214417744916822, 'inst_level_strict_accuracy': 0.36211031175059955, 'prompt_level_loose_accuracy': 0.2698706099815157, 'inst_level_loose_accuracy': 0.3920863309352518}}
+Finished llm-vicuna7b on alpaca using default images.
+--------------------------

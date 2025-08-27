@@ -7,3 +7,9 @@ results/
 results_*/
 log/
 log_*/
+MM-SafetyBench-imgs.zip
+MM-SafetyBench-main.zip
+mm-vet.zip
+mm-vet.zip.1
+task/__pycache__/
+model/__pycache__/

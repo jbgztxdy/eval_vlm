@@ -1,0 +1,9 @@
+Running llm-vicuna7b on alpaca using default images...
+Model llm-vicuna7b initialized.
+Task alpaca initialized.
+save_hs shape: (805, 33, 4096)
+===================================================================
+Evaluation Result with llm-vicuna7b on alpaca
+{'text': {'win_rate': 3.3519156302755766, 'standard_error': 0.5794556524992501, 'mode': 'community', 'avg_length': 890, 'n_wins': 28, 'n_wins_base': 776, 'n_draws': 1, 'n_total': 805, 'discrete_win_rate': 3.540372670807453, 'length_controlled_winrate': 4.933134856323608, 'lc_standard_error': 0.257313385359258}}
+Finished llm-vicuna7b on alpaca using default images.
+--------------------------

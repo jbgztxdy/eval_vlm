@@ -1,0 +1,3 @@
+export OPENAI_API_KEY=sk-NkNFNPCSYXsbUOUvid2Kyu2xsV19lfYWv962lX81HmyJb4qi
+export OPENAI_API_BASE=https://pro.xiaoai.plus/v1
+export OPENAI_MAX_CONCURRENCY=10

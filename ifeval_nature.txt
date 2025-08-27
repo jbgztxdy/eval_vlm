@@ -1,0 +1,16 @@
+Running llava-1.5-7b on spavlharm using default images...
+🚨 `test_strategy` is part of LlavaModel.forward's signature, but not documented. Make sure to add it to the docstring of the function in /home/yangjingwen/miniconda3/envs/eval_new/lib/python3.10/site-packages/transformers/models/llava/modeling_llava.py.
+🚨 `test_strategy` is part of LlavaForConditionalGeneration.forward's signature, but not documented. Make sure to add it to the docstring of the function in /home/yangjingwen/miniconda3/envs/eval_new/lib/python3.10/site-packages/transformers/models/llava/modeling_llava.py.
+left
+Model llava-1.5-7b initialized.
+Task ifeval initialized.
+save_hs shape: (541, 33, 4096)
+Ensuring NLTK resources are available...
+NLTK data directory: /home/yangjingwen/.cache/nltk_data
+Checking for NLTK punkt resource...
+NLTK punkt resource found.
+===================================================================
+Evaluation Result with llava-1.5-7b on ifeval
+{'nature_0': {'prompt_level_strict_accuracy': 0.33826247689463956, 'inst_level_strict_accuracy': 0.4448441247002398, 'prompt_level_loose_accuracy': 0.3567467652495379, 'inst_level_loose_accuracy': 0.46882494004796166}}
+Finished llava-1.5-7b on spavlharm using default images.
+--------------------------

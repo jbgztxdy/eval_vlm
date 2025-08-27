@@ -1,0 +1,30 @@
+Running llm-llama3.1 on pii-leakage-2...
+Traceback (most recent call last):
+  File "/data/zhangyichi/Modality-Bridging/main.py", line 1, in <module>
+    from model import get_model
+  File "/data/zhangyichi/Modality-Bridging/model/__init__.py", line 1, in <module>
+    from .llava import LLaVA
+  File "/data/zhangyichi/Modality-Bridging/model/llava.py", line 3, in <module>
+    from transformers import AutoProcessor, LlavaForConditionalGeneration, LlavaNextProcessor, LlavaNextForConditionalGeneration, LlavaOnevisionForConditionalGeneration
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/data/home/zhangyichi/miniconda3/envs/mm-bridge/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 1955, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhangyichi/miniconda3/envs/mm-bridge/lib/python3.11/site-packages/transformers/utils/import_utils.py", line 1967, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhangyichi/miniconda3/envs/mm-bridge/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/zhangyichi/miniconda3/envs/mm-bridge/lib/python3.11/site-packages/transformers/models/__init__.py", line 15, in <module>
+    from . import (
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1138, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1078, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1507, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1479, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1634, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 161, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 153, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+KeyboardInterrupt
